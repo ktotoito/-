@@ -1,0 +1,56 @@
+Пример 1:
+  Ввод:
+    3;tiger;2
+    3;gorilla;6
+    1;elephants;2
+    3;tiger;1
+    1;lions;1
+    2;camels;9
+    2;antelopes;13
+    1;elephants;8
+    1;leopards;4
+    1;lions;6
+    2;camels;7
+    2;antelopes;25
+
+  Вывод:
+    {
+      "savannah": {
+          "elephants": 10,
+          "lions": 7,
+          "leopards": 4
+      },
+      "desert": {
+          "camels": 16,
+          "antelopes": 38
+      },
+      "forest": {
+          "tiger": 3,
+          "gorilla": 6
+      }
+  }
+
+
+Пример 2:
+  Ввод:
+    3;parrot;41
+    2;hyenas;7
+    3;parrot;16
+    2;hyenas;11
+    2;jackals;18
+    3;tiger;1
+    2;jackals;3
+    3;tiger;2
+    
+  Вывод:
+    {
+        "savannah": {},
+        "desert": {
+            "hyenas": 18,
+            "jackals": 21
+        },
+        "forest": {
+            "parrot": 57,
+            "tiger": 3
+        }
+    }
